@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> welcome to calculator  </title>
+         <link rel="stylesheet" href="calc.css">
+        <script src="calc.js"> </script>
+    </head>
+    <body >
+        <form name="f1"  >
+            <h1> Welcome to calculator </h1>
+            <table id="tb1" align="center" border="0" class="calculator" >
+                
+                <tr> <td colspan="5"> <input type="text" name="t12"class="t1" id="res" readonly > </td></tr>
+                <tr>
+                    <td > <input type="button" value="c" name="b11"class="b2"  onclick="ar();" > </td>
+                    <td> <input type="button" value="=" name="b02"class="b1"   onclick="equl();"> </td>
+                    <td> <input type="button" value="3" name="b3"class="b1"   onclick="num1('3');" > </td>
+                    <td> <input type="button" value="2" name="b4"class="b1"   onclick="num1('2');" > </td>
+                    <td> <input type="button" value="1" name="b5"class="b1"   onclick="num1('1');"> </td>
+                </tr>
+                    <tr>
+                    <td> <input type="button" value="log" name="b6"class="b3" onclick="ln(); "> </td>
+                    <td> <input type="button" value="-" name="b7"class="b1"  onclick="num1('-');"> </td>
+                    <td> <input type="button" value="6" name="b8"class="b1"  onclick="num1('6');"> </td>
+                    <td> <input type="button" value="5" name="b9"class="b1"  onclick="num1('5');"> </td>
+                    <td> <input type="button" value="4" name="b10"class="b1"  onclick="num1('4');"> </td>
+                </tr>
+                <tr>
+                    <td > <input type="button" value="sqrt" name="b11"class="b2"  onclick="sqrt();" > </td>
+                    <td> <input type="button" value="+" name="b12"class="b1"  onclick="num1('+');"> </td>
+                    <td> <input type="button" value="9" name="b13"class="b1" onclick="num1('9');"> </td>
+                    <td> <input type="button" value="8" name="b14"class="b1"  onclick="num1('8');"> </td>
+                    <td> <input type="button" value="7" name="b15"class="b1"  onclick="num1('7');"> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="%" name="b01" class="b1" onclick="per(); "> </td>
+                    <td> <input type="button" value="*" name="b16"class="b1"  onclick="num1('*');"> </td>
+                    <td> <input type="button" value="/" name="b17"class="b1" onclick="num1('/');"> </td>
+                    <td> <input type="button" value="." name="b18"class="b1" onclick="num1('.');"> </td>
+                    <td> <input type="button" value="0" name="b19"class="b1"  onclick="num1('0');"> </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
